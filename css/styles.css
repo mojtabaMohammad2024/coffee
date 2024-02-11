@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('../fonts/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik-ExtraBold';
+    src: url('../fonts/Rubik-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('../fonts/Rubik-Bold.ttf') format('truetype');
+}
+html{
+    font-family: 'Rubik-Regular';
+}
+body{
+    background: linear-gradient(rgba(245, 241, 238, 0.9), rgba(245, 241, 238, 0.9)), url('../images/template-background.jpg') 0 50%/cover fixed;
+}
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.17rem;
+}
+h4{
+    font-size: 1rem;
+}
+h5{
+    font-size: 0.83rem;
+}
+h6{
+    font-size: 0.67rem;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    background-color: #c6a177;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.83rem;
+}
+.title-desc{
+    font-family: 'Rubik-ExtraBold';
+    margin: 2.5rem 0;
+    text-transform: uppercase;
+    line-height: 1.2;
+    transform: scaleY(1.8);
+}
+.title-desc-primary{
+    font-family: 'Rubik-Bold';
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    transform: scaleY(1.8);
+}
+
+/* ==== aboutUs ==== */
+/* ================= */
+
+.aboutUs .aboutUs-container{
+    padding: 4rem 0;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 0;
+}
+.aboutUs .aboutUs-container .aboutUs-image{
+    width: 100%;
+    text-align: center;
+}
+.aboutUs .aboutUs-container .aboutUs-image img{
+    width: 80%;
+    height: 20rem;
+    object-fit: cover;
+    aspect-ratio: 3 / 4;
+    border-radius: 100% / 125% 125% 80% 80%;
+}
+.aboutUs .aboutUs-container .aboutUs-text p{
+    color: #ccc8c5;
+    line-height: 1.8;
+    font-size: 0.87rem;
+}
+@media screen and (max-width:768px){
+    .aboutUs .aboutUs-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==== special-menu ==== */
+/* ====================== */
+
+.special-menu .special-menu-container{
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem 0;
+}
+.special-menu ul.special-menu-links{
+    border: 1px solid #e3dfdc;
+    border-radius: 5px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+.special-menu ul.special-menu-links li{
+    flex-grow: 1;
+    padding: 0.5rem 0;
+}
+.special-menu ul.special-menu-links li.active{
+    background-color: #c6a177;
+    border-radius: 5px;
+}
+.special-menu ul.special-menu-links li.active a{
+    color: white;
+}
+.special-menu ul.special-menu-links li a{
+    color: #6e6d6b;
+    text-transform: uppercase;
+}
+.special-menu .products-container{
+    margin: 0 auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem 1.5rem;
+}
+.special-menu .products-container article{
+    background-color: white;
+    padding-bottom: 1.3rem;
+    box-shadow: 0 0 8px 1px #0000001a;
+    border-radius: 10px;
+}
+.special-menu .products-container article .product-image img{
+    object-fit: cover;
+    height: 12rem;
+    width: 100%;
+    border-radius: 10px;
+}
+.special-menu .products-container article h2.title-desc-primary{
+    font-size: 0.9rem;
+}
+.special-menu .products-container article .product-price{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.special-menu .products-container article .product-price span{
+    color: #ccc8c5;
+    font-weight: normal;
+}
+.special-menu .products-container article .product-price .new-product-price{
+    color: #c6a177;
+}
+.special-menu .products-container article .product-price .old-product-price{
+    color: #ccc8c5;
+    text-decoration: line-through;
+}
+.special-menu .products-container article ul.product-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.25rem;
+    width: 30%;
+    margin: 0 auto;
+}
+.special-menu .products-container article ul.product-links li{
+    padding: 0.25rem;
+    border: 1px solid #ccc8c5;
+    border-radius: 5px;
+}
+.special-menu .products-container article ul.product-links li a{
+    color: #6e6d6b;
+}
+.special-menu .loading{
+    text-align: center;
+    font-size: 8rem;
+    color: #6e6d6b;
+}
+.special-menu .loading.hide{
+    display: none;
+}
+@media screen and (max-width:992px){
+
+    .special-menu .products-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .special-menu ul.special-menu-links{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width:768px){
+    .special-menu .products-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:567px){
+    .special-menu ul.special-menu-links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
