@@ -6,7 +6,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "green tea",
@@ -15,7 +17,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : true
     },
     {
         "labal" : "sandwich",
@@ -24,7 +28,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "coffee",
@@ -33,7 +39,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "coffee",
@@ -42,7 +50,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "coffee",
@@ -51,7 +61,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     
     {
@@ -61,7 +73,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : true
     },
     {
         "labal" : "coffee",
@@ -70,7 +84,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "sandwich",
@@ -79,7 +95,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "black tea",
@@ -88,7 +106,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "sandwich",
@@ -97,7 +117,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "sweet",
@@ -106,7 +128,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : true
     },
     {
         "labal" : "chocolate",
@@ -115,7 +139,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "sweet",
@@ -124,7 +150,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "sweet",
@@ -133,7 +161,9 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : false
     },
     {
         "labal" : "coffee",
@@ -142,6 +172,8 @@
         "price" : {
             "new" : 325,
             "old" : 348
-        }
+        },
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "topGrade" : true
     }
 ]

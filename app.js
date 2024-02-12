@@ -10,6 +10,7 @@ const fetchProducts = async () => {
         const data = await response.json();
         setupUniqueLabals(data);
         displayProducts(data);
+        displayTopGradeProducts(getTopGradeProducts(data));
     } catch (error) {
         console.log(error);
     }
@@ -110,5 +111,34 @@ async function filterProducts(labal){
     displayProducts(newProducts);
 }
 
+//------------
+
+const topGradeContainer = document.querySelector(".top-grade-container");
+
+function getTopGradeProducts(products){
+
+    const topGradeProducts = products.filter(product => {
+        return product.topGrade == true;
+    })
+    return topGradeProducts;
+}
+
+
+function displayTopGradeProducts(topGradeProducts){
+
+    topGradeContainer.innerHTML = topGradeProducts.map((topGradeProduct, index) => {
+        const {image, title, description} = topGradeProduct;
+        return  `<article>
+                    <div>
+                        <img src="${image}" alt="${title}"/>
+                        <span class="grade-number">
+                            ${index + 1} 
+                        </span>
+                    </div>
+                    <h2 class="title-desc-primary">${title}</h2>
+                    <p>${description}</p>
+                </article>`;
+    }).join("");
+}
 
 window.addEventListener("DOMContentLoaded", fetchProducts);
