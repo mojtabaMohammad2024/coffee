@@ -324,6 +324,10 @@ footer .footer-form section:has(form) input{
     background-color: transparent;
     padding: 0.5rem;
     color: #232325;
+    font-family: 'Rubik-Regular';
+}
+footer .footer-form section:has(form) input::placeholder{
+    font-family: 'Rubik-Regular';
 }
 footer .footer-form section:has(form) input:focus{
     outline: none;
