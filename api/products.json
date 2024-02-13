@@ -1,11 +1,11 @@
 [
     {
         "labal" : "chocolate",
-        "title" : "cherry chocolate",
+        "title" : "chocolate",
         "image" : "./images/product-image-1.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 2.5,
+            "old" : 5
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
@@ -15,19 +15,19 @@
         "title" : "green tea",
         "image" : "./images/product-image-2.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 2,
+            "old" : 5
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : true
     },
     {
         "labal" : "sandwich",
-        "title" : "triangle sandwich",
+        "title" : "BLT sandwich",
         "image" : "./images/product-image-3.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 5,
+            "old" : 8
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
@@ -37,30 +37,30 @@
         "title" : "late mocchiato",
         "image" : "./images/product-image-4.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 4,
+            "old" : 6
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
     },
     {
         "labal" : "coffee",
-        "title" : "americano coffe",
+        "title" : "espresso cubano",
         "image" : "./images/product-image-5.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 3,
+            "old" : 5
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
     },
     {
         "labal" : "coffee",
-        "title" : "caffe lati",
+        "title" : "latte coffee",
         "image" : "./images/product-image-6.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 3,
+            "old" : 6
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
@@ -68,11 +68,11 @@
     
     {
         "labal" : "coffee",
-        "title" : "espersso ristrestto",
+        "title" : "espresso ristrestto",
         "image" : "./images/product-image-7.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 1.5,
+            "old" : 3
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : true
@@ -82,19 +82,19 @@
         "title" : "coffee with milk",
         "image" : "./images/product-image-8.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 3.28,
+            "old" : 4
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
     },
     {
         "labal" : "sandwich",
-        "title" : "circle sandwich",
+        "title" : "pastrami sandwich",
         "image" : "./images/product-image-9.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 5,
+            "old" : 8
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
@@ -104,74 +104,74 @@
         "title" : "black tea",
         "image" : "./images/product-image-10.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 1.5,
+            "old" : 5
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
     },
     {
         "labal" : "sandwich",
-        "title" : "sqare sandwich",
+        "title" : "dietitian sandwich",
         "image" : "./images/product-image-11.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 15,
+            "old" : 20
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
     },
     {
         "labal" : "sweet",
-        "title" : "sweet",
+        "title" : "linzer cookies",
         "image" : "./images/product-image-12.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 3,
+            "old" : 4
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : true
     },
     {
         "labal" : "chocolate",
-        "title" : "coffee chocolate",
+        "title" : "chocolate sprinkles",
         "image" : "./images/product-image-13.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 5,
+            "old" : 6
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
     },
     {
         "labal" : "sweet",
-        "title" : "cherry",
+        "title" : "strawberry cake",
         "image" : "./images/product-image-14.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 5,
+            "old" : 7.5
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
     },
     {
         "labal" : "sweet",
-        "title" : "sweet",
+        "title" : "donut",
         "image" : "./images/product-image-15.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 2,
+            "old" : 4
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : false
     },
     {
         "labal" : "coffee",
-        "title" : "espersso lungo",
+        "title" : "espresso lungo",
         "image" : "./images/product-image-16.jpg",
         "price" : {
-            "new" : 325,
-            "old" : 348
+            "new" : 2,
+            "old" : 5
         },
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "topGrade" : true

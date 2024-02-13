@@ -83,7 +83,6 @@ function displayProducts (products){
             productsContainer.innerHTML = "";
             loading.classList.remove("hide");
             e.preventDefault();
-            // console.log(link.textContent);
             removeActiveClass();
             link.parentElement.classList.add("active");
             filterProducts(link.textContent);
@@ -107,7 +106,6 @@ async function filterProducts(labal){
             return product.labal == labal;
         })
     }
-    // console.log(newProducts);
     displayProducts(newProducts);
 }
 
